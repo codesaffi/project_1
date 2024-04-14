@@ -754,3 +754,28 @@ header img{
     gap: 5rem;
    }
 } 
+
+
+@media (max-width:450px){
+
+  .property .heading{
+    font-size: 25px;
+  }
+
+  .property .box-container{
+    grid-template-columns: 1fr;
+  }
+
+  .property .box-container .box .image{
+    height: 200px;
+  }
+
+  .property .box-container .box .content p{
+    font-size: 12px;
+  }
+
+  .property .box-container .box .content .icons span{
+    font-size: 12px;
+  }
+
+}
